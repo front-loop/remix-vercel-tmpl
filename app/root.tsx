@@ -1,7 +1,11 @@
 import { Links, Meta, Outlet, Scripts, ScrollRestoration } from '@remix-run/react'
-import type { LinksFunction } from '@vercel/remix'
+import type { LinksFunction, MetaFunction } from '@vercel/remix'
 import { Analytics } from '@vercel/analytics/react'
-import stylesheet from '~/tailwind.css?url'
+import stylesheet from '~/styles/tailwind.css?url'
+
+export const meta: MetaFunction = () => {
+  return [{ title: 'Remix @ Vercel' }, { name: 'description', content: 'Welcome to Remix!' }]
+}
 
 export const links: LinksFunction = () => [{ rel: 'stylesheet', href: stylesheet }]
 
