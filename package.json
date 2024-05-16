@@ -5,25 +5,25 @@
     "dev": "remix vite:dev"
   },
   "dependencies": {
-    "@remix-run/node": "^2.8.1",
-    "@remix-run/react": "^2.8.1",
-    "@remix-run/serve": "^2.8.1",
+    "@remix-run/node": "^2.9.2",
+    "@remix-run/react": "^2.9.2",
+    "@remix-run/serve": "^2.9.2",
     "@vercel/analytics": "^1.2.2",
     "@vercel/remix": "2.8.1-patch.2",
-    "isbot": "^5.1.4",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "ts-clsx": "^2.4.0"
+    "isbot": "^5.1.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "ts-clsx": "^2.4.1"
   },
   "devDependencies": {
-    "@remix-run/dev": "^2.8.1",
-    "@types/react": "^18.2.74",
-    "@types/react-dom": "^18.2.23",
+    "@remix-run/dev": "^2.9.2",
+    "@types/react": "^18.3.2",
+    "@types/react-dom": "^18.3.0",
     "autoprefixer": "^10.4.19",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.3",
-    "typescript": "^5.4.3",
-    "vite": "^5.2.7",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11",
     "vite-tsconfig-paths": "^4.3.2"
   },
   "engines": {
